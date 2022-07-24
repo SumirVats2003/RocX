@@ -1,0 +1,46 @@
+/* theme green */
+
+:root {
+	--green: #4ecca3;
+	/* --green: rgb(64, 255, 156); */
+	--black: rgb(24, 24, 24);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--black);
+	color: white;
+}
+
+#logo {
+	padding: 0.5rem;
+	font-size: 10px;
+}
+
+#navlist ul {
+	display: flex;
+}
+
+#navlist ul li {
+	display: block;
+	list-style-type: none;
+	padding: 2rem;
+	font-size: 20px;
+}
+
+#navlist ul li a:hover {
+	color: var(--green);
+	transition: 0.2s ease-in-out;
+}
